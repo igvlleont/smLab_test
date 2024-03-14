@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5563b73-28af-49c6-b481-3ca528c0b062">
+  <name>ТестовоеЗадание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовое задание</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.ОбщегоНазначенияКлиент</content>
+  <content>CommonModule.ОбщегоНазначенияКлиентСервер</content>
+  <content>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</content>
+  <content>AccumulationRegister.ПартииТоваров</content>
+  <subsystems>Документы</subsystems>
+  <subsystems>НСИ</subsystems>
+</mdclass:Subsystem>

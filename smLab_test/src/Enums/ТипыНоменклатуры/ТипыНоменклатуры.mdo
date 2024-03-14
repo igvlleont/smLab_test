@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="647e905e-ce9f-42e2-b09d-700e99dd1139">
+  <producedTypes>
+    <refType typeId="e84992ec-fbec-47b5-8391-ba0f35afdabc" valueTypeId="8fdbc303-ee0d-43b5-a05d-16c147dff1da"/>
+    <listType typeId="c6e52a1d-f3cb-4ab8-ba28-a051b8a9936c" valueTypeId="64a49765-6958-4d0d-b7e4-f8c969ae490d"/>
+    <managerType typeId="6340e4ad-f659-4aec-ba74-2156c7e32e93" valueTypeId="b647ef67-d23c-4158-bdf7-1923a1e09da8"/>
+  </producedTypes>
+  <name>ТипыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы номенклатуры</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Item types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="63fde76b-600c-411a-8e42-c8637a10085c">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Goods</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d29d12f-50a4-4cba-b72a-f9878a9cbf31">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Service</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

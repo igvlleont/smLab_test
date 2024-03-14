@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6408fb6c-49da-48f8-b07b-b398fd14fe3d">
+  <producedTypes>
+    <objectType typeId="1a28a41a-da74-4329-9be7-ccc171678db3" valueTypeId="1e9c93b5-ef73-4644-b9cf-1bb74058ee38"/>
+    <refType typeId="af0dbb37-ac32-43f4-a815-f85a717ee79f" valueTypeId="c3ed9ffa-9e94-4253-b5b0-f50484b38874"/>
+    <selectionType typeId="215a10b7-4ab2-4145-9a13-073ff6b5866b" valueTypeId="9d51ce23-fcd6-4f36-813c-adc47e82eef6"/>
+    <listType typeId="b440e156-e6d3-465e-a020-094fb17bce45" valueTypeId="b178555c-f810-4172-b6d4-418aac0143a6"/>
+    <managerType typeId="76b132c7-deb2-4b26-8637-928f087114e4" valueTypeId="b260c200-50af-4df6-b8da-d46b1f5b50ec"/>
+  </producedTypes>
+  <name>ПриобретениеТоваровИУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приобретение товаров и услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриобретениеТоваровИУслуг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Приобретение товаров и услуг</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Приобретение товаров и услуг</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПриобретениеТоваровИУслуг.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <sequenceFilling>AutoFillOff</sequenceFilling>
+  <registerRecords>AccumulationRegister.ПартииТоваров</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d10113b3-99a7-4442-ab04-b4527ce95b15">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="49eb9944-75c1-4299-b710-4b8a96868b13">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="fd9ea066-efec-4af3-a2b1-fbb42143cfbf">
+    <producedTypes>
+      <objectType typeId="3db88f1e-d80b-4c09-8a48-d4f23012b758" valueTypeId="8202be9c-9de0-45b8-a664-17d5877c1282"/>
+      <rowType typeId="6f3c9f91-e7e8-44db-ac94-dd2979b0a809" valueTypeId="71db61e2-462f-47f0-b0d7-78ec1b644d20"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="b3647049-e311-4cf5-974f-b547af63b61d">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="95bc4a07-d5ec-4e68-a526-3ed5d86b7c06">
+      <name>Склад</name>
+      <synonym>
+        <key>ru</key>
+        <value>Склад</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Склады</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="83a0504d-7001-45e1-bf74-1f0debdb3886">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Quantity (Stock UOM)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>en</key>
+        <value>The number of units is calculated automatically. If a package is specified for the items, editing the number of units will result in automatic recalculation of the number of packages.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

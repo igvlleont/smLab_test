@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bea2c63-d25c-4bff-84d7-7423447f8975">
+  <producedTypes>
+    <refType typeId="6f2bad62-a376-46e9-ba29-9a414a6835aa" valueTypeId="c742f72a-9714-47aa-95cf-49ed75c87fd8"/>
+    <listType typeId="6c03670f-abb8-4899-a325-759c6eb40c57" valueTypeId="2cb9458c-fa69-491e-b7f8-2a30074fbe4f"/>
+    <managerType typeId="86f45c0d-0cb8-499c-8aa7-499c968a6e97" valueTypeId="62033d22-4ed1-45d1-b5a0-1fb4baf0c56f"/>
+  </producedTypes>
+  <name>ВариантыУчетаПартий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты учета партий</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Inventory valuation methods</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="79bda03f-d21e-40d0-b502-998834ad8c07">
+    <name>НеУчитывать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не учитывать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88c006e0-97ab-4e61-8378-cacf4058c266">
+    <name>ФИФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИФО</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
