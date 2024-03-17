@@ -14,4 +14,5 @@
   <content>AccumulationRegister.ПартииТоваров</content>
   <subsystems>Документы</subsystems>
   <subsystems>НСИ</subsystems>
+  <subsystems>Добавленное</subsystems>
 </mdclass:Subsystem>
