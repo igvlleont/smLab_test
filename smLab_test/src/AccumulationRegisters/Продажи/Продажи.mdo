@@ -14,6 +14,7 @@
     <value>Продажи</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="55078cd4-17f8-400b-88fe-052adb0465f8">

@@ -56,6 +56,7 @@
   <documents>Document.ЗакрытиеПериода</documents>
   <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ВариантыУчетаПартий</enums>
+  <reports>Report.ПродажиПоПодразделениям</reports>
   <informationRegisters>InformationRegister.ПозицииЗакрытияПериода</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ПартииТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>

@@ -13,5 +13,6 @@
   <content>DefinedType.ЗначениеКоличества</content>
   <content>Document.ЗакрытиеПериода</content>
   <content>InformationRegister.ПозицииЗакрытияПериода</content>
+  <content>Report.ПродажиПоПодразделениям</content>
   <parentSubsystem>Subsystem.ТестовоеЗадание</parentSubsystem>
 </mdclass:Subsystem>
