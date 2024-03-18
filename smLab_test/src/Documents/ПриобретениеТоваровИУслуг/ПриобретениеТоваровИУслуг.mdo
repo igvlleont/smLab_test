@@ -35,6 +35,7 @@
   <defaultObjectForm>Document.ПриобретениеТоваровИУслуг.Form.ФормаДокумента</defaultObjectForm>
   <sequenceFilling>AutoFillOff</sequenceFilling>
   <registerRecords>AccumulationRegister.ПартииТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="d10113b3-99a7-4442-ab04-b4527ce95b15">

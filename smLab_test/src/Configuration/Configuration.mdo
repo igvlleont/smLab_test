@@ -57,4 +57,5 @@
   <enums>Enum.ВариантыУчетаПартий</enums>
   <accumulationRegisters>AccumulationRegister.ПартииТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
 </mdclass:Configuration>
