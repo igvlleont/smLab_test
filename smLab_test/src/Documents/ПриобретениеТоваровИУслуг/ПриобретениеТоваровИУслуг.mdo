@@ -33,7 +33,6 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПриобретениеТоваровИУслуг.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
   <sequenceFilling>AutoFillOff</sequenceFilling>
   <registerRecords>AccumulationRegister.ПартииТоваров</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
