@@ -6,9 +6,12 @@
     <value>Добавленное</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.РаботаСДокументами</content>
   <content>AccumulationRegister.Продажи</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>
   <content>DefinedType.ЗначениеКоличества</content>
+  <content>Document.ЗакрытиеПериода</content>
+  <content>InformationRegister.ПозицииЗакрытияПериода</content>
   <parentSubsystem>Subsystem.ТестовоеЗадание</parentSubsystem>
 </mdclass:Subsystem>

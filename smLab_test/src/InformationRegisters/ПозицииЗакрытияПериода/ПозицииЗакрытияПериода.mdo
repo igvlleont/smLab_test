@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c643edad-8dc3-4c0f-a061-d8a8aaff36eb">
+  <producedTypes>
+    <selectionType typeId="17fc514c-f835-4bc6-809c-a3db64aad6c8" valueTypeId="e1aa0faf-80dc-45fa-b46d-f61bf7c140d5"/>
+    <listType typeId="ae309bdb-46a8-4dc4-9448-2b5e3c0a0c67" valueTypeId="bea5f28d-c718-408f-a06e-e6457e68eb5a"/>
+    <managerType typeId="dc267195-05a2-4ed7-b03d-b2d889cf15b6" valueTypeId="ae7f3a1c-f6c6-4a70-9d36-6e74dd988b8a"/>
+    <recordSetType typeId="9569a228-354e-46dc-a843-2553493b8006" valueTypeId="94d09f83-141c-4176-891c-35ddbd32cd95"/>
+    <recordKeyType typeId="ad707e43-8d38-4eb8-805d-f052427efd99" valueTypeId="7e21cc89-ba93-420b-87d0-b79866e6f991"/>
+    <recordType typeId="5cbc7343-84f3-4c5c-878e-cde2d5c6ecbb" valueTypeId="181f9509-8c46-4947-967a-78a48373b7ac"/>
+    <recordManagerType typeId="942075ff-d080-42e6-bdf2-78699b56544d" valueTypeId="e49b05b9-b13d-477c-834b-4a12b4030a3f"/>
+  </producedTypes>
+  <name>ПозицииЗакрытияПериода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Позиции закрытия периода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0f9292d8-ea4e-455e-82f1-7701e074aeb4">
+    <name>ГраницаПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граница периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fc4ec4c7-6922-4dc8-867b-7b4f2b923162">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

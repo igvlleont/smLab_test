@@ -53,8 +53,10 @@
   <catalogs>Catalog.Склады</catalogs>
   <documents>Document.ПриобретениеТоваровИУслуг</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documents>Document.ЗакрытиеПериода</documents>
   <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ВариантыУчетаПартий</enums>
+  <informationRegisters>InformationRegister.ПозицииЗакрытияПериода</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ПартииТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>

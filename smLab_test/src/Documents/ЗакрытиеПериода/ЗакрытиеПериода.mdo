@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8ba2d7a-fc57-4eda-94db-935338456e72">
+  <producedTypes>
+    <objectType typeId="1fb8a352-1701-4fd0-9b57-294df20a9363" valueTypeId="3e5e8bcd-2447-42bd-a789-4abbbfafde12"/>
+    <refType typeId="5a383600-38df-4697-8795-5a0ce48835eb" valueTypeId="0efd3f8e-78eb-4e27-8c01-8e7eb9ea9ea3"/>
+    <selectionType typeId="674c3a97-7309-4982-98c1-d09eadfd1326" valueTypeId="669b4674-60fd-4789-b679-2718e74cc40a"/>
+    <listType typeId="c203f31b-64dd-42f0-8508-1c75acad9341" valueTypeId="03085524-a4e0-48d9-8656-4f69b4cce9fc"/>
+    <managerType typeId="fdbb10ff-128b-4c6c-bd33-ab1743bd3784" valueTypeId="202a9a2c-84f0-434c-bfb4-daa1bd327248"/>
+  </producedTypes>
+  <name>ЗакрытиеПериода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие периода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗакрытиеПериода.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗакрытиеПериода.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ПартииТоваров</registerRecords>
+  <registerRecords>InformationRegister.ПозицииЗакрытияПериода</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="23032a4e-eb96-4510-ab30-c868d59c5f6d">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cd649b22-4b07-442a-bdfb-12a716969e03">
+    <name>ГраницаПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граница периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="08ed05c5-3137-42d8-bbd6-1d3740f1a8ef">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
