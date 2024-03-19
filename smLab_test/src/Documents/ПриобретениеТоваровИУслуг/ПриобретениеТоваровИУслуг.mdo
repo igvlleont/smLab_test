@@ -120,12 +120,7 @@
         <value>Quantity (Stock UOM)</value>
       </synonym>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <scale>3</scale>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>DefinedType.ЗначениеКоличества</types>
       </type>
       <toolTip>
         <key>en</key>
